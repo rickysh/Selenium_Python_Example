@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 # Replace with your ChromeDriver path
-driver_path = "C:\\Users\\ricks\\Desktop\\Automation_QA_Testing\\selenium_new\\chromedriver.exe"
+driver_path = "<chromedriver.exe path>"
 
 # Initialize WebDriver
 service = Service(driver_path)  # Path to ChromeDriver
