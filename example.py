@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 # Replace with your ChromeDriver path
-driver_path = "<chromedriver.exe path>"
+driver_path = "chromedriver.exe"
 
 # Initialize WebDriver
 service = Service(driver_path)  # Path to ChromeDriver
@@ -42,6 +42,8 @@ print("Page Title:", page_title)
 
 # Find element by name (e.g., search form)
 search_form = driver.find_element(By.NAME, "q")  # Replace with actual name attribute
+
+driver.save_screenshot('example.png')
 
 # Clear the search box (optional)
 search_form.clear()
